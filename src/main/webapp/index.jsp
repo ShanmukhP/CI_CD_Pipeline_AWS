@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DevOps Project by Shanmukh</title>
+    <title>DevOps demo by Shanmukh</title>
     <meta name="description" content="Resto">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -127,7 +127,7 @@
   <div class="container">
 	<div class="row d-flex align-items-center">
 		<div class="col-lg-6 hero-left">
-		    <h1 class="display-4 mb-5">We Love <br>Delicious Foods at Resto!</h1>
+		    <h1 class="display-4 mb-5">I Love <br>Delicious Foods at Resto!</h1>
 		    <div class="mb-2">
 		    	<a class="btn btn-primary btn-shadow btn-lg" href="#" role="button">Explore Menu</a>
 			    <a class="btn btn-icon btn-lg" href="https://player.vimeo.com/video/33110953" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">

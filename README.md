@@ -1,6 +1,6 @@
 # CI/CD Pipeline with AWS
 
-Creating a CI/CD environment by using github actions for automatically deploying a docker container to a ecs cluster having 3 instances behind an application load balancer using dockerhub as a remote repository, triggered by a github push event and integrating with a slack app for automatically notifying upon new builds.
+Creating a CI/CD environment by using github actions for automatically deploying a docker container to an ecs cluster having 3 instances behind an application load balancer using dockerhub as a remote repository, triggered by a github push event and integrating with a slack app for automatically notifying upon new builds.
 
 ## Requirements :
 1. Git
@@ -64,4 +64,5 @@ Notification for build success :
 
 ## Final Changes reflecting in the output :
 When changes are made in the application and pushed to the github repository, Github actions is triggered and artifacts are generated using Maven. Docker images are then updated in the dockerhub. These are in turn updated in the ECS Cluster having 3 instances behind an application load balancer. After each build a slack notification is received on the subscribed mail id as well as on the app itself. After succesful build, the changes are reflected in the application. 
+
 ![image](https://user-images.githubusercontent.com/66320171/188897808-40e024e4-71dd-4be3-85b1-a1dacf6f81c3.png)
